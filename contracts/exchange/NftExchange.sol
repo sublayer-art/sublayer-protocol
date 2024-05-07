@@ -6,7 +6,7 @@ import "../lib/math/SafeMath.sol";
 import "../lib/interface/IERC1155.sol";
 import "../lib/utils/StringLibrary.sol";
 import "../lib/utils/BytesLibrary.sol";
-import "../lib/contracts/ERC165.sol";
+import "../lib/token/ERC165.sol";
 import "./OwnableOperatorRole.sol";
 import "./ERC20TransferProxy.sol";
 import "./TransferProxy.sol";
@@ -15,7 +15,7 @@ import "./ExchangeDomain.sol";
 import "./ExchangeState.sol";
 import "./TransferProxyForDeprecated.sol";
 
-import "../lib/contracts/HasSecondarySaleFees.sol";
+import "../lib/token/HasSecondarySaleFees.sol";
 import "../lib/utils/Ownable.sol";
 
 contract NftExchange is Ownable, ExchangeDomain {
