@@ -9,3 +9,5 @@
 | ExchangeState              | 0xbE382Feb99db228a2196c8Fe0068EaF3d897D093 |
 | ExchangeOrdersHolder       | 0xbE27F9d8a77d2c9a52bb479d4bfA113C5437299D |
 | NftExchange                | 0xDe077A07E50d37B5971845C502209f5c7aD05927 |
+| NFT                        | 0xf8eb6B50399f7Ca8360D68D9156760B043BD756E |
+| -------------------------- | ------------------------------------------ |
