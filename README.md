@@ -34,3 +34,14 @@ EVM version shanghai(Solidity 0.8.24) is preferred, a compatibility issue is met
 | ExchangeOrdersHolder       | 0x73f8A7EE3A5a5a53AE825ad2A7A2eC828441d820 |
 | NftExchange                | 0x6d52225A0A1C1CD662248aA3D21e849D6b694754 |
 | NFT                        |  |
+
+## Darwinia Mainnet Deployment
+EVM version shanghai(Solidity 0.8.24) is preferred, a compatibility issue is met for EVM cancun
+| Contract                       | Address                                         |
+| -------------------------- | ------------------------------------------ |
+| Transfer Proxy             | 0xecccfe3E36d51FDe352001EF7Ca26d174438b2Af |
+| TransferProxyForDeprecated | 0x655677931445D93c00fFa0Aa6393C1A04740da3E |
+| ERC20TransferProxy         | 0xF2c4e3200A367ab1347116C1234e177fE22C3852 |
+| ExchangeState              | 0x8625784f39a957060F81F9c424Aa07D12c45C576 |
+| ExchangeOrdersHolder       | 0x73f8A7EE3A5a5a53AE825ad2A7A2eC828441d820 |
+| NftExchange                | 0x6d52225A0A1C1CD662248aA3D21e849D6b694754 |
