@@ -2,11 +2,10 @@
 pragma solidity >=0.4.22 <0.9.0;
 pragma experimental ABIEncoderV2;
 
-import "../lib/math/SafeMath.sol";
-import "../lib/interface/IERC1155.sol";
-import "../lib/utils/StringLibrary.sol";
-import "../lib/utils/BytesLibrary.sol";
-import "../lib/token/ERC165.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
+import "@openzeppelin/contracts/token/ERC1155/IERC1155.sol";
+import "@openzeppelin/contracts/utils/introspection/ERC165.sol";
+
 import "./OwnableOperatorRole.sol";
 import "./ERC20TransferProxy.sol";
 import "./TransferProxy.sol";
@@ -15,10 +14,12 @@ import "./ExchangeDomain.sol";
 import "./ExchangeState.sol";
 import "./TransferProxyForDeprecated.sol";
 
-import "../lib/token/HasSecondarySaleFees.sol";
-import "../lib/utils/Ownable.sol";
+import "../utils/StringLibrary.sol";
+import "../utils/BytesLibrary.sol";
+import "../utils/HasSecondarySaleFees.sol";
 
-contract NftExchange is Ownable, ExchangeDomain {
+
+contract NftExchange is Ownable(msg.sender), ExchangeDomain {
     using SafeMath for uint;
     using UintLibrary for uint;
     using StringLibrary for string;

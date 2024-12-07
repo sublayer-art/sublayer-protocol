@@ -2,7 +2,7 @@
 pragma solidity >=0.4.22 <0.9.0;
 pragma experimental ABIEncoderV2;
 
-import "../lib/interface/IERC721.sol";
+import "@openzeppelin/contracts/token/ERC721/IERC721.sol";
 import "./OwnableOperatorRole.sol";
 
 contract TransferProxyForDeprecated is OwnableOperatorRole {
